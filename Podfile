@@ -5,3 +5,8 @@ target 'RideRoutePlanDemo' do
     pod 'AMapSearch'
 end
 
+target 'RideRoutePlanDemo-Swift' do
+    pod 'AMap3DMap'
+    pod 'AMapSearch'
+end
+

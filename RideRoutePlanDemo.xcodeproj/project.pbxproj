@@ -8,6 +8,96 @@
 
 /* Begin PBXBuildFile section */
 		022206780AA464527B9BBB54 /* libPods-RideRoutePlanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4DD4193FF3DD8EC47283BA /* libPods-RideRoutePlanDemo.a */; };
+		6651B718D56C883D6DC8BA67 /* libPods-RideRoutePlanDemo-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E582EF786BE10EEC25B99BB /* libPods-RideRoutePlanDemo-Swift.a */; };
+		D971B5821E1E80CF00F726EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971B5811E1E80CF00F726EF /* AppDelegate.swift */; };
+		D971B5871E1E80CF00F726EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D971B5851E1E80CF00F726EF /* Main.storyboard */; };
+		D971B5891E1E80CF00F726EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D971B5881E1E80CF00F726EF /* Assets.xcassets */; };
+		D971B58C1E1E80CF00F726EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D971B58A1E1E80CF00F726EF /* LaunchScreen.storyboard */; };
+		D971B5971E1E824200F726EF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971B5911E1E824200F726EF /* RootViewController.swift */; };
+		D971B5981E1E824200F726EF /* RoutePathDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971B5921E1E824200F726EF /* RoutePathDetailTableViewCell.swift */; };
+		D971B5991E1E824200F726EF /* RoutePathDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D971B5931E1E824200F726EF /* RoutePathDetailTableViewCell.xib */; };
+		D971B59A1E1E824200F726EF /* RoutePathDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971B5941E1E824200F726EF /* RoutePathDetailViewController.swift */; };
+		D971B59B1E1E824200F726EF /* RoutePathDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D971B5951E1E824200F726EF /* RoutePathDetailViewController.xib */; };
+		D971B59C1E1E82DC00F726EF /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AA11E13663E00B5116C /* LineDashPolyline.m */; };
+		D971B59D1E1E82DC00F726EF /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AA31E13663E00B5116C /* MANaviAnnotation.m */; };
+		D971B59E1E1E82DC00F726EF /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AA51E13663E00B5116C /* MANaviPolyline.m */; };
+		D971B59F1E1E82DC00F726EF /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AA71E13663E00B5116C /* MANaviRoute.m */; };
+		D971B5A01E1E82DC00F726EF /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AFF1E13663E00B5116C /* CommonUtility.m */; };
+		D971B5A11E1E82EA00F726EF /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAA1E13663E00B5116C /* arrow_right.png */; };
+		D971B5A21E1E82EA00F726EF /* arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAB1E13663E00B5116C /* arrow_right@2x.png */; };
+		D971B5A31E1E82EA00F726EF /* arrowTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAC1E13663E00B5116C /* arrowTexture.png */; };
+		D971B5A41E1E82EA00F726EF /* bus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAD1E13663E00B5116C /* bus@2x.png */; };
+		D971B5A51E1E82EA00F726EF /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAE1E13663E00B5116C /* car@2x.png */; };
+		D971B5A61E1E82EA00F726EF /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AAF1E13663E00B5116C /* compass@2x.png */; };
+		D971B5A71E1E82EA00F726EF /* custtexture.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB01E13663E00B5116C /* custtexture.png */; };
+		D971B5A81E1E82EA00F726EF /* custtexture_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB11E13663E00B5116C /* custtexture_bad.png */; };
+		D971B5A91E1E82EA00F726EF /* custtexture_green.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB21E13663E00B5116C /* custtexture_green.png */; };
+		D971B5AA1E1E82EA00F726EF /* custtexture_slow.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB31E13663E00B5116C /* custtexture_slow.png */; };
+		D971B5AB1E1E82EA00F726EF /* decrease@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB41E13663E00B5116C /* decrease@2x.png */; };
+		D971B5AC1E1E82EA00F726EF /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB51E13663E00B5116C /* delete@3x.png */; };
+		D971B5AD1E1E82EA00F726EF /* busRoute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB71E13663E00B5116C /* busRoute@2x.png */; };
+		D971B5AE1E1E82EA00F726EF /* busRoute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB81E13663E00B5116C /* busRoute@3x.png */; };
+		D971B5AF1E1E82EA00F726EF /* dottedStraight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AB91E13663E00B5116C /* dottedStraight@2x.png */; };
+		D971B5B01E1E82EA00F726EF /* dottedStraight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABA1E13663E00B5116C /* dottedStraight@3x.png */; };
+		D971B5B11E1E82EA00F726EF /* downStairs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABB1E13663E00B5116C /* downStairs@2x.png */; };
+		D971B5B21E1E82EA00F726EF /* downStairs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABC1E13663E00B5116C /* downStairs@3x.png */; };
+		D971B5B31E1E82EA00F726EF /* end@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABD1E13663E00B5116C /* end@2x.png */; };
+		D971B5B41E1E82EA00F726EF /* end@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABE1E13663E00B5116C /* end@3x.png */; };
+		D971B5B51E1E82EA00F726EF /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ABF1E13663E00B5116C /* left@2x.png */; };
+		D971B5B61E1E82EA00F726EF /* left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC01E13663E00B5116C /* left@3x.png */; };
+		D971B5B71E1E82EA00F726EF /* leftFront@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC11E13663E00B5116C /* leftFront@2x.png */; };
+		D971B5B81E1E82EA00F726EF /* leftFront@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC21E13663E00B5116C /* leftFront@3x.png */; };
+		D971B5B91E1E82EA00F726EF /* leftRear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC31E13663E00B5116C /* leftRear@2x.png */; };
+		D971B5BA1E1E82EA00F726EF /* leftRear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC41E13663E00B5116C /* leftRear@3x.png */; };
+		D971B5BB1E1E82EA00F726EF /* lift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC51E13663E00B5116C /* lift@2x.png */; };
+		D971B5BC1E1E82EA00F726EF /* lift@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC61E13663E00B5116C /* lift@3x.png */; };
+		D971B5BD1E1E82EA00F726EF /* pavement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC71E13663E00B5116C /* pavement@2x.png */; };
+		D971B5BE1E1E82EA00F726EF /* pavement@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC81E13663E00B5116C /* pavement@3x.png */; };
+		D971B5BF1E1E82EA00F726EF /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AC91E13663E00B5116C /* point@2x.png */; };
+		D971B5C01E1E82EA00F726EF /* point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACA1E13663E00B5116C /* point@3x.png */; };
+		D971B5C11E1E82EA00F726EF /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACB1E13663E00B5116C /* right@2x.png */; };
+		D971B5C21E1E82EA00F726EF /* right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACC1E13663E00B5116C /* right@3x.png */; };
+		D971B5C31E1E82EA00F726EF /* rightFront@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACD1E13663E00B5116C /* rightFront@2x.png */; };
+		D971B5C41E1E82EA00F726EF /* rightFront@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACE1E13663E00B5116C /* rightFront@3x.png */; };
+		D971B5C51E1E82EA00F726EF /* rightRear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ACF1E13663E00B5116C /* rightRear@2x.png */; };
+		D971B5C61E1E82EA00F726EF /* rightRear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD01E13663E00B5116C /* rightRear@3x.png */; };
+		D971B5C71E1E82EA00F726EF /* start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD11E13663E00B5116C /* start@2x.png */; };
+		D971B5C81E1E82EA00F726EF /* start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD21E13663E00B5116C /* start@3x.png */; };
+		D971B5C91E1E82EA00F726EF /* straight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD31E13663E00B5116C /* straight@2x.png */; };
+		D971B5CA1E1E82EA00F726EF /* straight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD41E13663E00B5116C /* straight@3x.png */; };
+		D971B5CB1E1E82EA00F726EF /* underGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD51E13663E00B5116C /* underGround@2x.png */; };
+		D971B5CC1E1E82EA00F726EF /* underGround@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD61E13663E00B5116C /* underGround@3x.png */; };
+		D971B5CD1E1E82EA00F726EF /* upStairs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD71E13663E00B5116C /* upStairs@2x.png */; };
+		D971B5CE1E1E82EA00F726EF /* upStairs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD81E13663E00B5116C /* upStairs@3x.png */; };
+		D971B5CF1E1E82EA00F726EF /* walkRoute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AD91E13663E00B5116C /* walkRoute@2x.png */; };
+		D971B5D01E1E82EA00F726EF /* walkRoute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADA1E13663E00B5116C /* walkRoute@3x.png */; };
+		D971B5D11E1E82EA00F726EF /* download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADB1E13663E00B5116C /* download@3x.png */; };
+		D971B5D21E1E82EA00F726EF /* endPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADC1E13663E00B5116C /* endPoint.png */; };
+		D971B5D31E1E82EA00F726EF /* endPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADD1E13663E00B5116C /* endPoint@2x.png */; };
+		D971B5D41E1E82EA00F726EF /* gpsStat1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADE1E13663E00B5116C /* gpsStat1@2x.png */; };
+		D971B5D51E1E82EA00F726EF /* gpsStat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7ADF1E13663E00B5116C /* gpsStat2@2x.png */; };
+		D971B5D61E1E82EA00F726EF /* GWF.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE01E13663E00B5116C /* GWF.png */; };
+		D971B5D71E1E82EA00F726EF /* hema.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE11E13663E00B5116C /* hema.png */; };
+		D971B5D81E1E82EA00F726EF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE31E13663E00B5116C /* icon-72.png */; };
+		D971B5D91E1E82EA00F726EF /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE41E13663E00B5116C /* icon-72@2x.png */; };
+		D971B5DA1E1E82EA00F726EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE51E13663E00B5116C /* icon.png */; };
+		D971B5DB1E1E82EA00F726EF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE61E13663E00B5116C /* icon@2x.png */; };
+		D971B5DC1E1E82EA00F726EF /* increase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE71E13663E00B5116C /* increase@2x.png */; };
+		D971B5DD1E1E82EA00F726EF /* locate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE81E13663E00B5116C /* locate@2x.png */; };
+		D971B5DE1E1E82EA00F726EF /* man@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AE91E13663E00B5116C /* man@2x.png */; };
+		D971B5DF1E1E82EA00F726EF /* navi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AEA1E13663E00B5116C /* navi@2x.png */; };
+		D971B5E01E1E82EA00F726EF /* naviBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AEB1E13663E00B5116C /* naviBackgroundHighlighted.png */; };
+		D971B5E11E1E82EA00F726EF /* naviBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AEC1E13663E00B5116C /* naviBackgroundNormal.png */; };
+		D971B5E21E1E82EA00F726EF /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AED1E13663E00B5116C /* pause@3x.png */; };
+		D971B5E31E1E82EA00F726EF /* public_button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AEE1E13663E00B5116C /* public_button_back@2x.png */; };
+		D971B5E41E1E82EA00F726EF /* public_button_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AEF1E13663E00B5116C /* public_button_back@3x.png */; };
+		D971B5E51E1E82EA00F726EF /* railway_station@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF01E13663E00B5116C /* railway_station@2x.png */; };
+		D971B5E61E1E82EA00F726EF /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF11E13663E00B5116C /* ride@2x.png */; };
+		D971B5E71E1E82EA00F726EF /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF21E13663E00B5116C /* search@2x.png */; };
+		D971B5E81E1E82EA00F726EF /* startPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF31E13663E00B5116C /* startPoint.png */; };
+		D971B5E91E1E82EA00F726EF /* startPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF41E13663E00B5116C /* startPoint@2x.png */; };
+		D971B5EA1E1E82EA00F726EF /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF51E13663E00B5116C /* userPosition.png */; };
+		D971B5EB1E1E82EA00F726EF /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF61E13663E00B5116C /* userPosition@2x.png */; };
 		D97B7A891E1364A800B5116C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A881E1364A800B5116C /* main.m */; };
 		D97B7A8C1E1364A800B5116C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A8B1E1364A800B5116C /* AppDelegate.m */; };
 		D97B7A8F1E1364A800B5116C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A8E1E1364A800B5116C /* ViewController.m */; };
@@ -102,8 +192,23 @@
 
 /* Begin PBXFileReference section */
 		1DB2FA850E0F5D71DD0558DB /* Pods-RideRoutePlanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo/Pods-RideRoutePlanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		429D8722635CC2ACC15E9494 /* Pods-RideRoutePlanDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo-Swift/Pods-RideRoutePlanDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		4B4DD4193FF3DD8EC47283BA /* libPods-RideRoutePlanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RideRoutePlanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5003E9A47AEE2B2322944169 /* Pods-RideRoutePlanDemo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo-Swift/Pods-RideRoutePlanDemo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9E582EF786BE10EEC25B99BB /* libPods-RideRoutePlanDemo-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RideRoutePlanDemo-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01E9535400EDDB54DC7E799 /* Pods-RideRoutePlanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo/Pods-RideRoutePlanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D971B57F1E1E80CF00F726EF /* RideRoutePlanDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RideRoutePlanDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971B5811E1E80CF00F726EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D971B5861E1E80CF00F726EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D971B5881E1E80CF00F726EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D971B58B1E1E80CF00F726EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D971B58D1E1E80CF00F726EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D971B5911E1E824200F726EF /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D971B5921E1E824200F726EF /* RoutePathDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathDetailTableViewCell.swift; sourceTree = "<group>"; };
+		D971B5931E1E824200F726EF /* RoutePathDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailTableViewCell.xib; sourceTree = "<group>"; };
+		D971B5941E1E824200F726EF /* RoutePathDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathDetailViewController.swift; sourceTree = "<group>"; };
+		D971B5951E1E824200F726EF /* RoutePathDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailViewController.xib; sourceTree = "<group>"; };
+		D971B5961E1E824200F726EF /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		D97B7A841E1364A800B5116C /* RideRoutePlanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideRoutePlanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97B7A881E1364A800B5116C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D97B7A8A1E1364A800B5116C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -209,6 +314,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D971B57C1E1E80CF00F726EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6651B718D56C883D6DC8BA67 /* libPods-RideRoutePlanDemo-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B7A811E1364A800B5116C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4DD4193FF3DD8EC47283BA /* libPods-RideRoutePlanDemo.a */,
+				9E582EF786BE10EEC25B99BB /* libPods-RideRoutePlanDemo-Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,14 +347,35 @@
 			children = (
 				A01E9535400EDDB54DC7E799 /* Pods-RideRoutePlanDemo.debug.xcconfig */,
 				1DB2FA850E0F5D71DD0558DB /* Pods-RideRoutePlanDemo.release.xcconfig */,
+				5003E9A47AEE2B2322944169 /* Pods-RideRoutePlanDemo-Swift.debug.xcconfig */,
+				429D8722635CC2ACC15E9494 /* Pods-RideRoutePlanDemo-Swift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D971B5801E1E80CF00F726EF /* RideRoutePlanDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D971B5811E1E80CF00F726EF /* AppDelegate.swift */,
+				D971B5851E1E80CF00F726EF /* Main.storyboard */,
+				D971B5911E1E824200F726EF /* RootViewController.swift */,
+				D971B5921E1E824200F726EF /* RoutePathDetailTableViewCell.swift */,
+				D971B5931E1E824200F726EF /* RoutePathDetailTableViewCell.xib */,
+				D971B5941E1E824200F726EF /* RoutePathDetailViewController.swift */,
+				D971B5951E1E824200F726EF /* RoutePathDetailViewController.xib */,
+				D971B5961E1E824200F726EF /* Swift-Bridging-Header.h */,
+				D971B5881E1E80CF00F726EF /* Assets.xcassets */,
+				D971B58A1E1E80CF00F726EF /* LaunchScreen.storyboard */,
+				D971B58D1E1E80CF00F726EF /* Info.plist */,
+			);
+			path = "RideRoutePlanDemo-Swift";
 			sourceTree = "<group>";
 		};
 		D97B7A7B1E1364A800B5116C = {
 			isa = PBXGroup;
 			children = (
 				D97B7A861E1364A800B5116C /* RideRoutePlanDemo */,
+				D971B5801E1E80CF00F726EF /* RideRoutePlanDemo-Swift */,
 				D97B7A851E1364A800B5116C /* Products */,
 				92FCD9BF5B668D4B5ACCC307 /* Pods */,
 				2D86AF3243CDE537B2D38F8D /* Frameworks */,
@@ -251,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				D97B7A841E1364A800B5116C /* RideRoutePlanDemo.app */,
+				D971B57F1E1E80CF00F726EF /* RideRoutePlanDemo-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,6 +558,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D971B57E1E1E80CF00F726EF /* RideRoutePlanDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971B5901E1E80CF00F726EF /* Build configuration list for PBXNativeTarget "RideRoutePlanDemo-Swift" */;
+			buildPhases = (
+				D56695750C36B906035C8292 /* [CP] Check Pods Manifest.lock */,
+				D971B57B1E1E80CF00F726EF /* Sources */,
+				D971B57C1E1E80CF00F726EF /* Frameworks */,
+				D971B57D1E1E80CF00F726EF /* Resources */,
+				48024D0BFF26E05E5B627CFF /* [CP] Embed Pods Frameworks */,
+				77489B41F4CB5EF8A1132343 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RideRoutePlanDemo-Swift";
+			productName = "RideRoutePlanDemo-Swift";
+			productReference = D971B57F1E1E80CF00F726EF /* RideRoutePlanDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D97B7A831E1364A800B5116C /* RideRoutePlanDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97B7A9B1E1364A800B5116C /* Build configuration list for PBXNativeTarget "RideRoutePlanDemo" */;
@@ -448,9 +604,15 @@
 		D97B7A7C1E1364A800B5116C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Amap;
 				TargetAttributes = {
+					D971B57E1E1E80CF00F726EF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
 					D97B7A831E1364A800B5116C = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YMJ372W38W;
@@ -472,11 +634,99 @@
 			projectRoot = "";
 			targets = (
 				D97B7A831E1364A800B5116C /* RideRoutePlanDemo */,
+				D971B57E1E1E80CF00F726EF /* RideRoutePlanDemo-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D971B57D1E1E80CF00F726EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971B5A11E1E82EA00F726EF /* arrow_right.png in Resources */,
+				D971B5A21E1E82EA00F726EF /* arrow_right@2x.png in Resources */,
+				D971B5A31E1E82EA00F726EF /* arrowTexture.png in Resources */,
+				D971B5A41E1E82EA00F726EF /* bus@2x.png in Resources */,
+				D971B5A51E1E82EA00F726EF /* car@2x.png in Resources */,
+				D971B5A61E1E82EA00F726EF /* compass@2x.png in Resources */,
+				D971B5A71E1E82EA00F726EF /* custtexture.png in Resources */,
+				D971B5A81E1E82EA00F726EF /* custtexture_bad.png in Resources */,
+				D971B5A91E1E82EA00F726EF /* custtexture_green.png in Resources */,
+				D971B5AA1E1E82EA00F726EF /* custtexture_slow.png in Resources */,
+				D971B5AB1E1E82EA00F726EF /* decrease@2x.png in Resources */,
+				D971B5AC1E1E82EA00F726EF /* delete@3x.png in Resources */,
+				D971B5AD1E1E82EA00F726EF /* busRoute@2x.png in Resources */,
+				D971B5AE1E1E82EA00F726EF /* busRoute@3x.png in Resources */,
+				D971B5AF1E1E82EA00F726EF /* dottedStraight@2x.png in Resources */,
+				D971B5B01E1E82EA00F726EF /* dottedStraight@3x.png in Resources */,
+				D971B5B11E1E82EA00F726EF /* downStairs@2x.png in Resources */,
+				D971B5B21E1E82EA00F726EF /* downStairs@3x.png in Resources */,
+				D971B5B31E1E82EA00F726EF /* end@2x.png in Resources */,
+				D971B5B41E1E82EA00F726EF /* end@3x.png in Resources */,
+				D971B5B51E1E82EA00F726EF /* left@2x.png in Resources */,
+				D971B5B61E1E82EA00F726EF /* left@3x.png in Resources */,
+				D971B5B71E1E82EA00F726EF /* leftFront@2x.png in Resources */,
+				D971B5B81E1E82EA00F726EF /* leftFront@3x.png in Resources */,
+				D971B5B91E1E82EA00F726EF /* leftRear@2x.png in Resources */,
+				D971B5BA1E1E82EA00F726EF /* leftRear@3x.png in Resources */,
+				D971B5BB1E1E82EA00F726EF /* lift@2x.png in Resources */,
+				D971B5BC1E1E82EA00F726EF /* lift@3x.png in Resources */,
+				D971B5BD1E1E82EA00F726EF /* pavement@2x.png in Resources */,
+				D971B5BE1E1E82EA00F726EF /* pavement@3x.png in Resources */,
+				D971B5BF1E1E82EA00F726EF /* point@2x.png in Resources */,
+				D971B5C01E1E82EA00F726EF /* point@3x.png in Resources */,
+				D971B5C11E1E82EA00F726EF /* right@2x.png in Resources */,
+				D971B5C21E1E82EA00F726EF /* right@3x.png in Resources */,
+				D971B5C31E1E82EA00F726EF /* rightFront@2x.png in Resources */,
+				D971B5C41E1E82EA00F726EF /* rightFront@3x.png in Resources */,
+				D971B5C51E1E82EA00F726EF /* rightRear@2x.png in Resources */,
+				D971B5C61E1E82EA00F726EF /* rightRear@3x.png in Resources */,
+				D971B5C71E1E82EA00F726EF /* start@2x.png in Resources */,
+				D971B5C81E1E82EA00F726EF /* start@3x.png in Resources */,
+				D971B5C91E1E82EA00F726EF /* straight@2x.png in Resources */,
+				D971B5CA1E1E82EA00F726EF /* straight@3x.png in Resources */,
+				D971B5CB1E1E82EA00F726EF /* underGround@2x.png in Resources */,
+				D971B5CC1E1E82EA00F726EF /* underGround@3x.png in Resources */,
+				D971B5CD1E1E82EA00F726EF /* upStairs@2x.png in Resources */,
+				D971B5CE1E1E82EA00F726EF /* upStairs@3x.png in Resources */,
+				D971B5CF1E1E82EA00F726EF /* walkRoute@2x.png in Resources */,
+				D971B5D01E1E82EA00F726EF /* walkRoute@3x.png in Resources */,
+				D971B5D11E1E82EA00F726EF /* download@3x.png in Resources */,
+				D971B5D21E1E82EA00F726EF /* endPoint.png in Resources */,
+				D971B5D31E1E82EA00F726EF /* endPoint@2x.png in Resources */,
+				D971B5D41E1E82EA00F726EF /* gpsStat1@2x.png in Resources */,
+				D971B5D51E1E82EA00F726EF /* gpsStat2@2x.png in Resources */,
+				D971B5D61E1E82EA00F726EF /* GWF.png in Resources */,
+				D971B5D71E1E82EA00F726EF /* hema.png in Resources */,
+				D971B5D81E1E82EA00F726EF /* icon-72.png in Resources */,
+				D971B5D91E1E82EA00F726EF /* icon-72@2x.png in Resources */,
+				D971B5DA1E1E82EA00F726EF /* icon.png in Resources */,
+				D971B5DB1E1E82EA00F726EF /* icon@2x.png in Resources */,
+				D971B5DC1E1E82EA00F726EF /* increase@2x.png in Resources */,
+				D971B5DD1E1E82EA00F726EF /* locate@2x.png in Resources */,
+				D971B5DE1E1E82EA00F726EF /* man@2x.png in Resources */,
+				D971B5DF1E1E82EA00F726EF /* navi@2x.png in Resources */,
+				D971B5E01E1E82EA00F726EF /* naviBackgroundHighlighted.png in Resources */,
+				D971B5E11E1E82EA00F726EF /* naviBackgroundNormal.png in Resources */,
+				D971B5E21E1E82EA00F726EF /* pause@3x.png in Resources */,
+				D971B5E31E1E82EA00F726EF /* public_button_back@2x.png in Resources */,
+				D971B5E41E1E82EA00F726EF /* public_button_back@3x.png in Resources */,
+				D971B5E51E1E82EA00F726EF /* railway_station@2x.png in Resources */,
+				D971B5E61E1E82EA00F726EF /* ride@2x.png in Resources */,
+				D971B5E71E1E82EA00F726EF /* search@2x.png in Resources */,
+				D971B5E81E1E82EA00F726EF /* startPoint.png in Resources */,
+				D971B5E91E1E82EA00F726EF /* startPoint@2x.png in Resources */,
+				D971B5EA1E1E82EA00F726EF /* userPosition.png in Resources */,
+				D971B5EB1E1E82EA00F726EF /* userPosition@2x.png in Resources */,
+				D971B59B1E1E824200F726EF /* RoutePathDetailViewController.xib in Resources */,
+				D971B58C1E1E80CF00F726EF /* LaunchScreen.storyboard in Resources */,
+				D971B5891E1E80CF00F726EF /* Assets.xcassets in Resources */,
+				D971B5991E1E824200F726EF /* RoutePathDetailTableViewCell.xib in Resources */,
+				D971B5871E1E80CF00F726EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B7A821E1364A800B5116C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,6 +832,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideRoutePlanDemo/Pods-RideRoutePlanDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		48024D0BFF26E05E5B627CFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideRoutePlanDemo-Swift/Pods-RideRoutePlanDemo-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77489B41F4CB5EF8A1132343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideRoutePlanDemo-Swift/Pods-RideRoutePlanDemo-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8429393E0D993DE8E3341810 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -595,6 +875,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideRoutePlanDemo/Pods-RideRoutePlanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56695750C36B906035C8292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DE4011119C16E51DBB508271 /* [CP] Check Pods Manifest.lock */ = {
@@ -615,6 +910,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D971B57B1E1E80CF00F726EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971B59C1E1E82DC00F726EF /* LineDashPolyline.m in Sources */,
+				D971B59D1E1E82DC00F726EF /* MANaviAnnotation.m in Sources */,
+				D971B59E1E1E82DC00F726EF /* MANaviPolyline.m in Sources */,
+				D971B59F1E1E82DC00F726EF /* MANaviRoute.m in Sources */,
+				D971B5A01E1E82DC00F726EF /* CommonUtility.m in Sources */,
+				D971B59A1E1E824200F726EF /* RoutePathDetailViewController.swift in Sources */,
+				D971B5971E1E824200F726EF /* RootViewController.swift in Sources */,
+				D971B5821E1E80CF00F726EF /* AppDelegate.swift in Sources */,
+				D971B5981E1E824200F726EF /* RoutePathDetailTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B7A801E1364A800B5116C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -635,6 +946,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D971B5851E1E80CF00F726EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D971B5861E1E80CF00F726EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D971B58A1E1E80CF00F726EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D971B58B1E1E80CF00F726EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D97B7A901E1364A800B5116C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -654,6 +981,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D971B58E1E1E80CF00F726EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5003E9A47AEE2B2322944169 /* Pods-RideRoutePlanDemo-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "RideRoutePlanDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.RideRoutePlanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./RideRoutePlanDemo-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D971B58F1E1E80CF00F726EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429D8722635CC2ACC15E9494 /* Pods-RideRoutePlanDemo-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "RideRoutePlanDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.RideRoutePlanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "./RideRoutePlanDemo-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		D97B7A991E1364A800B5116C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -778,6 +1145,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D971B5901E1E80CF00F726EF /* Build configuration list for PBXNativeTarget "RideRoutePlanDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971B58E1E1E80CF00F726EF /* Debug */,
+				D971B58F1E1E80CF00F726EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D97B7A7F1E1364A800B5116C /* Build configuration list for PBXProject "RideRoutePlanDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
