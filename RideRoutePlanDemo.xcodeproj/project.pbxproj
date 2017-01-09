@@ -98,6 +98,7 @@
 		D971B5E91E1E82EA00F726EF /* startPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF41E13663E00B5116C /* startPoint@2x.png */; };
 		D971B5EA1E1E82EA00F726EF /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF51E13663E00B5116C /* userPosition.png */; };
 		D971B5EB1E1E82EA00F726EF /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7AF61E13663E00B5116C /* userPosition@2x.png */; };
+		D971B6E21E237D6900F726EF /* RideRoutePlanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D971B6E11E237D6900F726EF /* RideRoutePlanDemoUITests.m */; };
 		D97B7A891E1364A800B5116C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A881E1364A800B5116C /* main.m */; };
 		D97B7A8C1E1364A800B5116C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A8B1E1364A800B5116C /* AppDelegate.m */; };
 		D97B7A8F1E1364A800B5116C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A8E1E1364A800B5116C /* ViewController.m */; };
@@ -190,6 +191,16 @@
 		D97B7B531E13663E00B5116C /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7AFF1E13663E00B5116C /* CommonUtility.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D971B6E41E237D6900F726EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97B7A7C1E1364A800B5116C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97B7A831E1364A800B5116C;
+			remoteInfo = RideRoutePlanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1DB2FA850E0F5D71DD0558DB /* Pods-RideRoutePlanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo/Pods-RideRoutePlanDemo.release.xcconfig"; sourceTree = "<group>"; };
 		429D8722635CC2ACC15E9494 /* Pods-RideRoutePlanDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideRoutePlanDemo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideRoutePlanDemo-Swift/Pods-RideRoutePlanDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +220,9 @@
 		D971B5941E1E824200F726EF /* RoutePathDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathDetailViewController.swift; sourceTree = "<group>"; };
 		D971B5951E1E824200F726EF /* RoutePathDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailViewController.xib; sourceTree = "<group>"; };
 		D971B5961E1E824200F726EF /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D971B6DF1E237D6900F726EF /* RideRoutePlanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideRoutePlanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971B6E11E237D6900F726EF /* RideRoutePlanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideRoutePlanDemoUITests.m; sourceTree = "<group>"; };
+		D971B6E31E237D6900F726EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D97B7A841E1364A800B5116C /* RideRoutePlanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideRoutePlanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97B7A881E1364A800B5116C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D97B7A8A1E1364A800B5116C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -322,6 +336,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D971B6DC1E237D6900F726EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B7A811E1364A800B5116C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,11 +392,21 @@
 			path = "RideRoutePlanDemo-Swift";
 			sourceTree = "<group>";
 		};
+		D971B6E01E237D6900F726EF /* RideRoutePlanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D971B6E11E237D6900F726EF /* RideRoutePlanDemoUITests.m */,
+				D971B6E31E237D6900F726EF /* Info.plist */,
+			);
+			path = RideRoutePlanDemoUITests;
+			sourceTree = "<group>";
+		};
 		D97B7A7B1E1364A800B5116C = {
 			isa = PBXGroup;
 			children = (
 				D97B7A861E1364A800B5116C /* RideRoutePlanDemo */,
 				D971B5801E1E80CF00F726EF /* RideRoutePlanDemo-Swift */,
+				D971B6E01E237D6900F726EF /* RideRoutePlanDemoUITests */,
 				D97B7A851E1364A800B5116C /* Products */,
 				92FCD9BF5B668D4B5ACCC307 /* Pods */,
 				2D86AF3243CDE537B2D38F8D /* Frameworks */,
@@ -387,6 +418,7 @@
 			children = (
 				D97B7A841E1364A800B5116C /* RideRoutePlanDemo.app */,
 				D971B57F1E1E80CF00F726EF /* RideRoutePlanDemo-Swift.app */,
+				D971B6DF1E237D6900F726EF /* RideRoutePlanDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -578,6 +610,24 @@
 			productReference = D971B57F1E1E80CF00F726EF /* RideRoutePlanDemo-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D971B6DE1E237D6900F726EF /* RideRoutePlanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971B6E81E237D6900F726EF /* Build configuration list for PBXNativeTarget "RideRoutePlanDemoUITests" */;
+			buildPhases = (
+				D971B6DB1E237D6900F726EF /* Sources */,
+				D971B6DC1E237D6900F726EF /* Frameworks */,
+				D971B6DD1E237D6900F726EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D971B6E51E237D6900F726EF /* PBXTargetDependency */,
+			);
+			name = RideRoutePlanDemoUITests;
+			productName = RideRoutePlanDemoUITests;
+			productReference = D971B6DF1E237D6900F726EF /* RideRoutePlanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D97B7A831E1364A800B5116C /* RideRoutePlanDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97B7A9B1E1364A800B5116C /* Build configuration list for PBXNativeTarget "RideRoutePlanDemo" */;
@@ -613,6 +663,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					D971B6DE1E237D6900F726EF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = D97B7A831E1364A800B5116C;
+					};
 					D97B7A831E1364A800B5116C = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YMJ372W38W;
@@ -635,6 +691,7 @@
 			targets = (
 				D97B7A831E1364A800B5116C /* RideRoutePlanDemo */,
 				D971B57E1E1E80CF00F726EF /* RideRoutePlanDemo-Swift */,
+				D971B6DE1E237D6900F726EF /* RideRoutePlanDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -724,6 +781,13 @@
 				D971B5891E1E80CF00F726EF /* Assets.xcassets in Resources */,
 				D971B5991E1E824200F726EF /* RoutePathDetailTableViewCell.xib in Resources */,
 				D971B5871E1E80CF00F726EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971B6DD1E237D6900F726EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,6 +990,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D971B6DB1E237D6900F726EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971B6E21E237D6900F726EF /* RideRoutePlanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B7A801E1364A800B5116C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -944,6 +1016,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D971B6E51E237D6900F726EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97B7A831E1364A800B5116C /* RideRoutePlanDemo */;
+			targetProxy = D971B6E41E237D6900F726EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D971B5851E1E80CF00F726EF /* Main.storyboard */ = {
@@ -1018,6 +1098,35 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "./RideRoutePlanDemo-Swift/Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D971B6E61E237D6900F726EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = RideRoutePlanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.RideRoutePlanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = RideRoutePlanDemo;
+			};
+			name = Debug;
+		};
+		D971B6E71E237D6900F726EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = RideRoutePlanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.RideRoutePlanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = RideRoutePlanDemo;
 			};
 			name = Release;
 		};
@@ -1153,6 +1262,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D971B6E81E237D6900F726EF /* Build configuration list for PBXNativeTarget "RideRoutePlanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971B6E61E237D6900F726EF /* Debug */,
+				D971B6E71E237D6900F726EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		D97B7A7F1E1364A800B5116C /* Build configuration list for PBXProject "RideRoutePlanDemo" */ = {
 			isa = XCConfigurationList;
