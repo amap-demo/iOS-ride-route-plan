@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pJz-fR-6vX">
-    <device id="retina4_7" orientation="portrait">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pJz-fR-6vX">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,7 +15,6 @@
             <objects>
                 <navigationController navigationBarHidden="YES" id="pJz-fR-6vX" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HQ4-mu-NUY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -29,19 +29,15 @@
         <scene sceneID="BA1-cq-V6T">
             <objects>
                 <viewController id="esG-ow-SK5" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TfX-Gf-BhY"/>
-                        <viewControllerLayoutGuide type="bottom" id="HSx-TK-vXg"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6Aj-vw-nNY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9dq-zs-axR">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fig-39-WyH">
-                                        <rect key="frame" x="295" y="20" width="80" height="44"/>
+                                        <rect key="frame" x="295" y="44" width="80" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="NME-HZ-82S"/>
                                             <constraint firstAttribute="width" constant="80" id="w59-N0-oMH"/>
@@ -52,7 +48,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="骑行出行路线规划" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3x-WW-ARr">
-                                        <rect key="frame" x="98" y="20" width="180" height="45"/>
+                                        <rect key="frame" x="97.666666666666686" y="43" width="180" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="83y-3q-qWk"/>
                                             <constraint firstAttribute="width" constant="180" id="nXw-rp-be1"/>
@@ -65,14 +61,13 @@
                                 <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Fig-39-WyH" secondAttribute="trailing" id="2wJ-b0-pNU"/>
-                                    <constraint firstItem="d3x-WW-ARr" firstAttribute="top" secondItem="9dq-zs-axR" secondAttribute="top" constant="20" id="GTA-k6-kea"/>
-                                    <constraint firstAttribute="height" constant="64" id="IVH-iy-HGK"/>
+                                    <constraint firstAttribute="bottom" secondItem="d3x-WW-ARr" secondAttribute="bottom" id="BFw-sm-kC5"/>
                                     <constraint firstItem="d3x-WW-ARr" firstAttribute="centerX" secondItem="9dq-zs-axR" secondAttribute="centerX" id="b40-f9-Ii4"/>
-                                    <constraint firstItem="Fig-39-WyH" firstAttribute="top" secondItem="9dq-zs-axR" secondAttribute="top" constant="20" id="vZi-ot-GdU"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fig-39-WyH" secondAttribute="bottom" id="o2E-A3-d56"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-IF-ent">
-                                <rect key="frame" x="0.0" y="622" width="375" height="45"/>
+                                <rect key="frame" x="0.0" y="733" width="375" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpm-Qp-VX1">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="45"/>
@@ -119,13 +114,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bMi-IF-ent" firstAttribute="leading" secondItem="6Aj-vw-nNY" secondAttribute="leading" id="MTl-ts-7vI"/>
-                            <constraint firstItem="9dq-zs-axR" firstAttribute="leading" secondItem="6Aj-vw-nNY" secondAttribute="leading" id="QAV-Xx-FFg"/>
-                            <constraint firstAttribute="trailing" secondItem="bMi-IF-ent" secondAttribute="trailing" id="UYy-Wg-SFj"/>
+                            <constraint firstItem="tPn-Se-xXW" firstAttribute="top" secondItem="9dq-zs-axR" secondAttribute="bottom" constant="-44" id="BeG-WX-NkO"/>
+                            <constraint firstItem="bMi-IF-ent" firstAttribute="leading" secondItem="tPn-Se-xXW" secondAttribute="leading" id="MTl-ts-7vI"/>
+                            <constraint firstItem="9dq-zs-axR" firstAttribute="leading" secondItem="tPn-Se-xXW" secondAttribute="leading" id="QAV-Xx-FFg"/>
+                            <constraint firstItem="tPn-Se-xXW" firstAttribute="trailing" secondItem="bMi-IF-ent" secondAttribute="trailing" id="UYy-Wg-SFj"/>
                             <constraint firstItem="9dq-zs-axR" firstAttribute="top" secondItem="6Aj-vw-nNY" secondAttribute="top" id="Xob-XU-JDB"/>
-                            <constraint firstItem="HSx-TK-vXg" firstAttribute="top" secondItem="bMi-IF-ent" secondAttribute="bottom" id="hoE-bZ-muz"/>
-                            <constraint firstAttribute="trailing" secondItem="9dq-zs-axR" secondAttribute="trailing" id="jze-ZU-d7e"/>
+                            <constraint firstItem="tPn-Se-xXW" firstAttribute="bottom" secondItem="bMi-IF-ent" secondAttribute="bottom" id="hoE-bZ-muz"/>
+                            <constraint firstItem="tPn-Se-xXW" firstAttribute="trailing" secondItem="9dq-zs-axR" secondAttribute="trailing" id="jze-ZU-d7e"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="tPn-Se-xXW"/>
                     </view>
                     <navigationItem key="navigationItem" id="xGL-dE-xZp"/>
                     <connections>
